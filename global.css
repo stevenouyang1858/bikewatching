@@ -1,0 +1,36 @@
+body {
+  font: 100%/1.5 system-ui, sans-serif;
+  display: flex;
+  flex-flow: column;
+  max-width: 80em;
+  min-height: 100vh;
+  box-sizing: border-box;
+  margin: auto;
+  padding: 1em;
+}
+
+header {
+  display: flex;
+  gap: 1em;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1em;
+  width: 100%;
+}
+
+#time-filter {
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9em;
+}
+
+#time-filter time,
+#time-filter em {
+  display: block;
+}
+
+#time-filter em {
+  color: #666;
+  font-style: italic;
+}
